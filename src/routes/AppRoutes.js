@@ -5,11 +5,11 @@ import Dashbordscreen from '../component/Dashbordscreen'
 import StudentScreen from '../component/StudentScreen'
 import CourseScreen from '../component/CourseScreen'
 import SettingSreen from '../component/SettingScreen'
-import { DemoOneScreen } from '../component/DemoOneScreen'
-import Demo2Screen from '../component/Demo2Screen'
-import Demo3Screen from '../component/Demo3Screen'
+// import { DemoOneScreen } from '../component/DemoOneScreen'
+// import Demo2Screen from '../component/Demo2Screen'
+// import Demo3Screen from '../component/Demo3Screen'
 import Profile from '../component/Profile'
-import Profile2Screen from '../component/Profile2Screen'
+// import Profile2Screen from '../component/Profile2Screen'
 import Slider from '../component/Slider'
 
 export default function AppRoutes() {
@@ -22,11 +22,11 @@ export default function AppRoutes() {
         <Route path="students" element={<StudentScreen />} />
         <Route path="courses" element={<CourseScreen />} />
         <Route path="settings" element={<SettingSreen />} />
-        <Route path="domoOneScreen" element={<DemoOneScreen />} />
-        <Route path="domoTwoScreen" element={<Demo2Screen />} />
-        <Route path="domo3Screen" element={<Demo3Screen />} />
+        {/* <Route path="domoOneScreen" element={<DemoOneScreen />} /> */}
+        {/* <Route path="domoTwoScreen" element={<Demo2Screen />} />
+        <Route path="domo3Screen" element={<Demo3Screen />} /> */}
         <Route path="profilescreen" element={<Profile/>}/>
-        <Route path="profile2screen" element={<Profile2Screen/>}/>
+        {/* <Route path="profile2screen" element={<Profile2Screen/>}/> */}
         <Route path="slider" element={<Slider/>}/>
 
       </Route>

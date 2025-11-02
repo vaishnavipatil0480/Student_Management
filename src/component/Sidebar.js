@@ -37,41 +37,41 @@ const [collapsed, setCollapsed] = useState(false);
       icon: <SettingOutlined />,
       label: 'Settings',
     },
-    {
-      key: 'demo',
-      icon: <SettingOutlined/>,
-      label: 'demo',
-    },
+    // {
+    //   key: 'demo',
+    //   icon: <SettingOutlined/>,
+    //   label: 'demo',
+    // },
     {
       key:"logout",
       icon:<LogoutOutlined/>,
-      label:'logoutlined',
+      label:'logout',
     },
-    {
-key:"domoOneScreen",
-icon:<HomeFilled/>,
-label:"Demo 1",
-    },
-    {
-    key:"domoTwoScreen",
-    icon:<HolderOutlined/>,
-    label:"Demo 2",
-    },
-    {
-    key:"domo3Screen",
-    icon:<BookFilled/>,
-    label:"Demo 3",
-    },
+    // {
+// key:"domoOneScreen",
+// icon:<HomeFilled/>,
+// label:"Demo 1",
+//     },
+    // {
+    // key:"domoTwoScreen",
+    // icon:<HolderOutlined/>,
+    // label:"Demo 2",
+    // },
+    // {
+    // key:"domo3Screen",
+    // icon:<BookFilled/>,
+    // label:"Demo 3",
+    // },
     {
   key:"profilescreen",
    icon:<ProductFilled/>,
   label:"profile",
     },
-      {
-  key:"profile2screen",
-   icon:<ProductFilled/>,
-  label:"profile 2",
-    },
+      // {
+  // key:"profile2screen",
+  //  icon:<ProductFilled/>,
+  // label:"profile 2",
+  //   },
      {
   key:"slider",
    icon:<SlackOutlined/>,
